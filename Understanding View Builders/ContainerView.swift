@@ -28,9 +28,13 @@ struct ContainerView_Previews: PreviewProvider {
 
 struct MyConatiner<Content: View>: View{
     let content: Content
+    let bgColor: Color
+    let fgColor: Color
     
-    init(@ViewBuilder content: () -> Content) {
+    init(bgColor: Color = .green, fgColor: Color = .white,@ViewBuilder content: () -> Content) {
         self.content = content()
+        self.bgColor = bgColor
+        self.fgColor = fgColor
     }
     
     var body: some View{
