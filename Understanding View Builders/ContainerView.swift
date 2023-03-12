@@ -7,6 +7,12 @@ struct ContainerView: View {
             MyConatiner{
                 Text("Container View")
                 Text("This is the second line ")
+                Button {
+                    
+                } label: {
+                    Image(systemName: "star")
+                }
+
             }
         }
     }
@@ -22,6 +28,7 @@ struct ContainerView_Previews: PreviewProvider {
 
 struct MyConatiner<Content: View>: View{
     let content: Content
+    
     init(@ViewBuilder content: () -> Content) {
         self.content = content()
     }
@@ -29,6 +36,11 @@ struct MyConatiner<Content: View>: View{
     var body: some View{
         VStack{
             content
+                .padding(5)
         }
+        .background(RoundedRectangle(cornerRadius: 10).fill(.green))
+        .foregroundColor(.white)
+        .shadow(radius: 5)
+        
     }
 }
