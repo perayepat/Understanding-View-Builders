@@ -1,10 +1,3 @@
-//
-//  My Container .swift
-//  Understanding View Builders
-//
-//  Created by Pat on 2023/03/12.
-//
-
 import SwiftUI
 
 //MARK: - Container View
