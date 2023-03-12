@@ -13,6 +13,7 @@
 		433548BC29BE27F900965045 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 433548BB29BE27F900965045 /* Preview Assets.xcassets */; };
 		43E89FDB29BE2A4500586650 /* Basics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E89FDA29BE2A4500586650 /* Basics.swift */; };
 		43E89FDD29BE2CC300586650 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E89FDC29BE2CC300586650 /* ContainerView.swift */; };
+		43E89FDF29BE34B800586650 /* My Container .swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E89FDE29BE34B800586650 /* My Container .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		433548BB29BE27F900965045 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		43E89FDA29BE2A4500586650 /* Basics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basics.swift; sourceTree = "<group>"; };
 		43E89FDC29BE2CC300586650 /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		43E89FDE29BE34B800586650 /* My Container .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "My Container .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				433548B629BE27F700965045 /* ContentView.swift */,
 				43E89FDA29BE2A4500586650 /* Basics.swift */,
 				43E89FDC29BE2CC300586650 /* ContainerView.swift */,
+				43E89FDE29BE34B800586650 /* My Container .swift */,
 				433548B829BE27F900965045 /* Assets.xcassets */,
 				433548BA29BE27F900965045 /* Preview Content */,
 			);
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43E89FDD29BE2CC300586650 /* ContainerView.swift in Sources */,
+				43E89FDF29BE34B800586650 /* My Container .swift in Sources */,
 				43E89FDB29BE2A4500586650 /* Basics.swift in Sources */,
 				433548B729BE27F700965045 /* ContentView.swift in Sources */,
 				433548B529BE27F700965045 /* Understanding_View_BuildersApp.swift in Sources */,
