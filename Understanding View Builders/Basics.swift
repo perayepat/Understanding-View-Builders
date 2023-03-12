@@ -31,6 +31,7 @@ extension Basics{
 }
 
 //MARK: - Using a view as a seperate function
+/// For reusabel components 
 struct SquareOrCirle: View{
     @Binding var isSquare: Bool
     var body: some View{
