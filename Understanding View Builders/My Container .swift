@@ -30,3 +30,12 @@ struct MyConatiner<Content: View>: View{
         
     }
 }
+
+struct MyContainer_Previews: PreviewProvider{
+    static var previews: some View{
+        MyConatiner{
+            Text("Hello")
+            Text("World")
+        }
+    }
+}
