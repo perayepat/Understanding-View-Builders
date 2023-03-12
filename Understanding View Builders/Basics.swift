@@ -17,16 +17,16 @@ struct Basics: View {
 
 /// Small veiw structs design principles
 extension Basics{
-    func squareOrCircle() -> some View{
+   @ViewBuilder func squareOrCircle() -> some View{
         
         if isSquare{
-            return  AnyView(RoundedRectangle(cornerRadius: 10)
+            RoundedRectangle(cornerRadius: 10)
                 .fill(.green)
-                .frame(width: 100, height: 100))
+                .frame(width: 100, height: 100)
         } else {
-            return AnyView( Circle()
+            Circle()
                 .fill(.red)
-                .frame(width: 100))
+                .frame(width: 100)
         }
     }
 }
